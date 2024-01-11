@@ -3,6 +3,7 @@ import java.util.Scanner;
 interface Calci{
  public int getSub(int a,int b);
  public int getdiv(int a,int b);
+ public int getproduct(int a,int b);
 }
 class Calciimp implements Calci{
   public int getSub(int a,int b){
@@ -11,6 +12,9 @@ class Calciimp implements Calci{
   public int getdiv(int a,int b){
     return(a/b);
 
+}
+ public int getproduct(int a,int b){
+    return(a*b);
 }
 }
 class CalciDriver{
